@@ -1,4 +1,4 @@
-// h1
+// h1: 発展課題1
 #include <stdio.h>
 #include <math.h>
 int main(){
