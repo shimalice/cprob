@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 int main(){
+        // *型: int型を指すポインタ型
         int a, *p;
 
         a = 10;

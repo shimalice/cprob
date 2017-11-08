@@ -12,7 +12,6 @@ int main(){
     *p = s[0];
     p++;
   }
-  p = q;
   printf("中身は以下の通りです．\n");
   for (int count2 = 0; count2 < 10; count2++) {
     /* code */
