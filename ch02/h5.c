@@ -8,6 +8,7 @@ void myprintf(char* str) {
   }
 }
 int main(){
-  char* str = "Hello, World!";
+  char str[] = "Hello, World!";
+  // 文字列(char型の配列)は先頭のアドレスを表すポインタ
   myprintf(str);
 }

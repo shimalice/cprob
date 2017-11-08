@@ -12,7 +12,7 @@ int main(){
   p = q;
   printf("中身は以下の通りです．\n");
   for (int count2 = 0; count2 < 10; count2++) {
-    printf("値:%d アドレス:%p\n", *q, q);
-    q ++;
+    printf("値:%d アドレス:%p\n", *p, p);
+    p ++;
   }
 }
