@@ -16,8 +16,6 @@ int main(){
   companyData  *companies, *addressbook;
   companies = (companyData*)malloc(sizeof(companyData)*3);
   addressbook = companies;
-  // personData ceo;
-  // ceo = (personData*)malloc(sizeof(personData));
   for(int i = 0; i < 3; i++){
     personData *ceo;
     ceo = (personData*)malloc(sizeof(personData));
